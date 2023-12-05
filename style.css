@@ -1,0 +1,76 @@
+body {
+
+}
+h1 h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+
+h2 {
+  font-size: 18px;
+  line-height: 2;
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.87;
+}
+
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  display: block;
+}
+
+button {
+  cursor: pointer;
+  border: 0px;
+}
+
+.list {
+  list-style: none;
+}
+
+a {
+  list-style-type: none;
+  text-decoration: none;
+  transition-property: color;
+}
+.header {
+    margin: 0px;
+}
+.nav {
+    height: 87px;
+    background: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+}
+.nav__logo {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+.nav__list {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+.nav__list--link {
+    color: #FFFFFF;
+}
